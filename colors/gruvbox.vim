@@ -509,7 +509,7 @@ hi! link VisualNOS Visual
 call s:HL('Search',    s:yellow, s:bg0, s:inverse)
 call s:HL('IncSearch', s:hls_cursor, s:bg0, s:inverse)
 
-call s:HL('QuickFixLine', s:bg0, s:red, s:bold) 
+call s:HL('QuickFixLine', s:bg0, s:red, s:bold)
 
 call s:HL('Underlined', s:blue, s:none, s:underline)
 
@@ -1158,8 +1158,9 @@ hi! link jsClassKeyword GruvboxAqua
 hi! link jsExtendsKeyword GruvboxAqua
 hi! link jsExportDefault GruvboxAqua
 hi! link jsTemplateBraces GruvboxAqua
-hi! link jsGlobalNodeObjects GruvboxFg1
-hi! link jsGlobalObjects GruvboxFg1
+hi! link jsGlobalNodeObjects GruvboxBlue
+hi! link jsGlobalObjects GruvboxBlue
+hi! link jsObjectKey GruvboxGreenBold
 hi! link jsFunction GruvboxAqua
 hi! link jsFuncParens GruvboxFg3
 hi! link jsParens GruvboxFg3
