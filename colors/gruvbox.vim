@@ -1085,23 +1085,23 @@ hi! link javascriptGlobal GruvboxYellow
 
 hi! link javascriptEndColons GruvboxFg1
 hi! link javascriptFuncArg GruvboxFg1
-hi! link javascriptGlobalMethod GruvboxFg1
+hi! link javascriptGlobalMethod GruvboxAqua
 hi! link javascriptNodeGlobal GruvboxFg1
 hi! link javascriptBOMWindowProp GruvboxFg1
-hi! link javascriptArrayMethod GruvboxFg1
-hi! link javascriptArrayStaticMethod GruvboxFg1
-hi! link javascriptCacheMethod GruvboxFg1
-hi! link javascriptDateMethod GruvboxFg1
-hi! link javascriptMathStaticMethod GruvboxFg1
+hi! link javascriptArrayMethod GruvboxAqua
+hi! link javascriptArrayStaticMethod GruvboxAqua
+hi! link javascriptCacheMethod GruvboxAqua
+hi! link javascriptDateMethod GruvboxAqua
+hi! link javascriptMathStaticMethod GruvboxAqua
 
 " hi! link javascriptProp GruvboxFg1
 hi! link javascriptURLUtilsProp GruvboxFg1
 hi! link javascriptBOMNavigatorProp GruvboxFg1
-hi! link javascriptDOMDocMethod GruvboxFg1
+hi! link javascriptDOMDocMethod GruvboxAqua
 hi! link javascriptDOMDocProp GruvboxFg1
-hi! link javascriptBOMLocationMethod GruvboxFg1
-hi! link javascriptBOMWindowMethod GruvboxFg1
-hi! link javascriptStringMethod GruvboxFg1
+hi! link javascriptBOMLocationMethod GruvboxAqua
+hi! link javascriptBOMWindowMethod GruvboxAqua
+hi! link javascriptStringMethod GruvboxAqua
 
 hi! link javascriptVariable GruvboxOrange
 " hi! link javascriptVariable GruvboxRed
@@ -1143,10 +1143,10 @@ hi! link javascriptDocNamedParamType GruvboxFg4
 
 hi! link javascriptBrackets GruvboxFg1
 hi! link javascriptDOMElemAttrs GruvboxFg1
-hi! link javascriptDOMEventMethod GruvboxFg1
-hi! link javascriptDOMNodeMethod GruvboxFg1
-hi! link javascriptDOMStorageMethod GruvboxFg1
-hi! link javascriptHeadersMethod GruvboxFg1
+hi! link javascriptDOMEventMethod GruvboxAqua
+hi! link javascriptDOMNodeMethod GruvboxAqua
+hi! link javascriptDOMStorageMethod GruvboxAqua
+hi! link javascriptHeadersMethod GruvboxAqua
 
 hi! link javascriptAsyncFuncKeyword GruvboxRed
 hi! link javascriptAwaitFuncKeyword GruvboxRed
@@ -1167,6 +1167,7 @@ hi! link jsParens GruvboxFg3
 hi! link jsNull GruvboxPurple
 hi! link jsUndefined GruvboxPurple
 hi! link jsClassDefinition GruvboxYellow
+hi! link jsFuncCall GruvboxYellow
 
 " }}}
 " TypeScript: {{{
