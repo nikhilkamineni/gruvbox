@@ -1039,11 +1039,11 @@ hi! link cssVendor GruvboxFg1
 
 hi! link cssTextProp GruvboxAqua
 hi! link cssAnimationProp GruvboxAqua
-hi! link cssUIProp GruvboxYellow
+hi! link cssUIProp GruvboxAqua
 hi! link cssTransformProp GruvboxAqua
 hi! link cssTransitionProp GruvboxAqua
 hi! link cssPrintProp GruvboxAqua
-hi! link cssPositioningProp GruvboxYellow
+hi! link cssPositioningProp GruvboxAqua
 hi! link cssBoxProp GruvboxAqua
 hi! link cssFontDescriptorProp GruvboxAqua
 hi! link cssFlexibleBoxProp GruvboxAqua
