@@ -539,6 +539,8 @@ hi! link Question GruvboxOrangeBold
 " Warning messages
 hi! link WarningMsg GruvboxRedBold
 
+" Remove ~ for blank lines
+hi! link EndOfBuffer GruvboxBg0
 " }}}
 " Gutter: {{{
 
