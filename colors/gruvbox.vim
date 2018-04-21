@@ -86,7 +86,7 @@ let s:is_dark=(&background == 'dark')
 let s:gb = {}
 
 " fill it with absolute colors
-let s:gb.dark0_hard  = ['#1d2021', 234]     " 29-32-33
+let s:gb.dark0_hard  = ['#000000', 234]     " 29-32-33
 let s:gb.dark0       = ['#282828', 235]     " 40-40-40
 let s:gb.dark0_soft  = ['#32302f', 236]     " 50-48-47
 let s:gb.dark1       = ['#3c3836', 237]     " 60-56-54
@@ -101,7 +101,7 @@ let s:gb.gray_244    = ['#928374', 244]     " 146-131-116
 let s:gb.light0_hard = ['#f9f5d7', 230]     " 249-245-215
 let s:gb.light0      = ['#fbf1c7', 229]     " 253-244-193
 let s:gb.light0_soft = ['#f2e5bc', 228]     " 242-229-188
-let s:gb.light1      = ['#ebdbb2', 223]     " 235-219-178
+let s:gb.light1      = ['#dab997', 223]     " 235-219-178
 let s:gb.light2      = ['#d5c4a1', 250]     " 213-196-161
 let s:gb.light3      = ['#bdae93', 248]     " 189-174-147
 let s:gb.light4      = ['#a89984', 246]     " 168-153-132
@@ -220,13 +220,13 @@ else
 
   let s:fg4_256 = s:gb.dark4_256
 
-  let s:red    = s:gb.faded_red
-  let s:green  = s:gb.faded_green
-  let s:yellow = s:gb.faded_yellow
-  let s:blue   = s:gb.faded_blue
-  let s:purple = s:gb.faded_purple
-  let s:aqua   = s:gb.faded_aqua
-  let s:orange = s:gb.faded_orange
+  let s:red    = s:gb.bright_red
+  let s:green  = s:gb.bright_green
+  let s:yellow = s:gb.bright_yellow
+  let s:blue   = s:gb.bright_blue
+  let s:purple = s:gb.bright_purple
+  let s:aqua   = s:gb.bright_aqua
+  let s:orange = s:gb.bright_orange
 endif
 
 " reset to 16 colors fallback
@@ -1062,7 +1062,7 @@ hi! link cssGeneratedContentProp GruvboxAqua
 " }}}
 " JavaScript: {{{
 
-hi! link javaScriptBraces GruvboxFg1
+hi! link javaScriptBraces GruvboxYellow
 hi! link javaScriptFunction GruvboxAqua
 hi! link javaScriptIdentifier GruvboxRed
 hi! link javaScriptMember GruvboxBlue
@@ -1375,7 +1375,7 @@ hi! link haskellChar GruvboxGreen
 
 hi! link jsonKeyword GruvboxGreen
 hi! link jsonQuote GruvboxGreen
-hi! link jsonBraces GruvboxFg1
+hi! link jsonBraces GruvboxYellow
 hi! link jsonString GruvboxFg1
 
 " }}}
