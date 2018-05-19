@@ -295,7 +295,10 @@ if has('nvim')
 
   let g:terminal_color_7 = s:fg4[0]
   let g:terminal_color_15 = s:fg1[0]
+else
+  let g:terminal_ansi_colors = ['white', '#cc241d', '#98971a', '#d79921', '#83a598', '#b16286', '#689d6a', 'black', 'gray', '#fb4934', '#b8bb26', '#fabd2f', '#83a598', '#d3869b', '#8ec07c', 'white']
 endif
+
 
 " }}}
 " Overload Setting: {{{
